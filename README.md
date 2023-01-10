@@ -5,6 +5,7 @@
 - Request Workspace
 - Data Model
     - Quick SQL script
+
     ```
     jobs /insert 4
     name /upper /unique /check developer, analyst, manager, assistant
@@ -19,9 +20,9 @@
         city
         country
         job id /references jobs
-```
+    
 
-Create an apex application manage employees:
+- Create an apex application manage employees:
 - Create page manage employee:
     - Create region with dashboard on the name that includes:
          - 1 badge with total number of employees
